@@ -1,3 +1,7 @@
-.fundo {
-    background-color: azure;
+.titulo {
+    color: green;
+}
+
+.centro {
+    text-align: center;
 }
