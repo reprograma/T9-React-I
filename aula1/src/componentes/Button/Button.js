@@ -5,9 +5,10 @@ function Button(props) {
     //     clicar: () => {},
     //     texto: ''
     // }
+
     return (
-       <button onClick={props.clicar}> {props.texto}  </button>
-    // <button onClick={() => alert('')}> Clique aqui </button>
+    <button onClick={props.clique}> {props.texto}  </button>
+   // <button onClick={() => alert('oi')}> Clique aqui </button>
     ); 
 }
 export default Button;

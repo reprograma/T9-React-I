@@ -6,21 +6,26 @@ import imagemGoogle from '../../img/google.png';
 
 function Home() {
     const cliqueBotao = () => {
-        alert('oi')
+        alert('Bom dia Reprograma')
     }
+
+    const cliqueBotaoTchau = () => {
+        alert('tchau')
+    } 
     return (
         <div className="centro">
             <img src={imagemGoogle} alt="google" />
             <input type="text" />
             <div>
                 <Button
-                 clicar={cliqueBotao} 
+                 clique={cliqueBotao} 
                  texto="Diga oi"/>
                 <Button 
-                clicar={() => alert('tchau')}
+                clique={cliqueBotaoTchau}
                 texto="Diga tchau"/>
             </div>
-            {/* <BemVinda 
+            
+            <BemVinda 
             nome="Bruna"
             cidade="Guarulhos"
             />
@@ -30,7 +35,7 @@ function Home() {
             <BemVinda
             cidade="São Paulo"
             nome="Jani"
-            /> */}
+            />
             
 
         </div>
