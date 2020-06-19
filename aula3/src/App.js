@@ -1,9 +1,12 @@
 import React from 'react';
-import SecaoPets from './componentes/SecaoPets/SecaoPets';
+import Contador from './componentes/Contador/Contador';
 
 function App() {
   return (
-      <SecaoPets />
+  <>
+    <Contador />
+    </>
+
   );
 }
 
