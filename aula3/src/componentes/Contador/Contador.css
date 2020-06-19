@@ -11,19 +11,3 @@
     justify-content: space-around;
     align-items: center;
 }
-
-button {
-    height: 30px;
-    width: 40px;
-    background-color: seashell;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.button-menos{
-    color: red;
-}
-
-.button-mais{
-    color: green;
-}
