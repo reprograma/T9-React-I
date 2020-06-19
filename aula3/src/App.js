@@ -1,12 +1,9 @@
 import React from 'react';
-import Input from './componentes/Input/Input';
+import SecaoPets from './componentes/SecaoPets/SecaoPets';
 
 function App() {
   return (
-    <>
-      <h1> Oi </h1>
-      <Input />
-    </>
+      <SecaoPets />
   );
 }
 
